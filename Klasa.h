@@ -3,6 +3,7 @@
 
 #pragma once
 
+#include "Klasa2.h"
 class Klasa
 {
 public:
@@ -10,6 +11,7 @@ public:
     ~Klasa();
 
 private:
+    Klasa2 kl2;
 
 };
 
