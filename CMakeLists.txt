@@ -13,7 +13,7 @@ add_library(${PROJECT_NAME}_lib
     "klasy/Klasa2.cpp"
 )
 
-target_include_directories(${PROJECT_NAME}_lib PRIVATE "klasy")
+target_include_directories(${PROJECT_NAME}_lib PUBLIC "klasy")
 
 add_executable(${PROJECT_NAME} "main.cpp")
 target_link_libraries(${PROJECT_NAME} PRIVATE ${PROJECT_NAME}_lib)
